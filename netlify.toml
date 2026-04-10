@@ -2,6 +2,11 @@
    publish = "public"
    functions = "netlify/functions"
  
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/api/health"
+  status = 200
+
  [[redirects]]
    from = "/health"
    to = "/.netlify/functions/api/health"
