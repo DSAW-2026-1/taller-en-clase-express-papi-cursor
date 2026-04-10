@@ -1,0 +1,17 @@
+{
+  "name": "taller-en-clase-auth-roles",
+  "version": "1.0.0",
+  "description": "Express API: /login (token) y /request (roles)",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "serverless-http": "^4.0.0"
+  }
+}
